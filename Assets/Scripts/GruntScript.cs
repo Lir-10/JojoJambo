@@ -36,7 +36,7 @@ public class GruntScript : MonoBehaviour
 
     public void Hit()
     {
-        Health -= 1;
+        Health = Health - 1;
         if (Health == 0) Destroy(gameObject);
     }
 }
